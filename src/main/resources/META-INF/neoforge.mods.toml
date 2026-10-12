@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "bloxcraft"
+version = "1.0.0"
+displayName = "Blox Craft: Minecraft x Blox Fruits"
+description = '''
+Minecraft x Blox Fruits: дьявольские фрукты, мечи, уровни, квесты, боссы и острова.
+'''
+
+[[dependencies.bloxcraft]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloxcraft]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
